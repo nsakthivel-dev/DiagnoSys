@@ -1,0 +1,275 @@
+Rare Disease
+Clinical Reference Report
+Symptoms  |  Diagnosis  |  Treatment  |  Case Examples
+This report covers 10 rare diseases with symptom profiles, standardised diagnostic pathways, treatment approaches, and illustrative anonymised case examples. All case examples are composite illustrations for educational purposes and do not represent any specific individual.
+Ehlers-Danlos Syndrome (EDS)
+Classification: Genetic / Connective Tissue
+  Key Symptoms
+Hypermobile or unstable joints prone to dislocation
+Skin that stretches unusually far and feels velvety
+Easy bruising and slow wound healing
+Chronic widespread musculoskeletal pain
+Fatigue and exercise intolerance
+Autonomic dysfunction (POTS) in some subtypes
+Digestive issues and gastric dysmotility
+  Diagnosis Pathway
+  Treatment
+Physiotherapy, pain management (NSAIDs, low-dose naltrexone), joint bracing, psychological support. No cure. Vascular EDS requires annual imaging.
+  Prognosis
+Variable by subtype. Most have normal lifespan; vascular EDS has serious complications. Quality of life management is ongoing.
+Myasthenia Gravis (MG)
+Classification: Autoimmune / Neuromuscular
+  Key Symptoms
+Ptosis (drooping eyelids), often worse later in the day
+Diplopia (double vision)
+Difficulty swallowing or speaking (bulbar symptoms)
+Proximal limb weakness (arms, thighs)
+Respiratory muscle weakness — myasthenic crisis in severe cases
+Symptoms fluctuate and worsen with exertion or illness
+Thymic abnormalities (thymoma in ~15% of patients)
+  Diagnosis Pathway
+  Treatment
+Acetylcholinesterase inhibitors (pyridostigmine), corticosteroids, azathioprine, rituximab for refractory cases. Thymectomy if thymoma present. IVIg or plasmapheresis for crises.
+  Prognosis
+With treatment, most achieve significant symptom control. Remission possible post-thymectomy. Crisis requires ICU care.
+Primary Biliary Cholangitis (PBC)
+Classification: Autoimmune / Hepatic
+  Key Symptoms
+Persistent fatigue (most common presenting complaint)
+Pruritus (intense itching), especially at night
+Jaundice in advanced disease
+Dry eyes and dry mouth (sicca syndrome)
+Hyperpigmentation of the skin
+Portal hypertension in late-stage disease
+Xanthelasma (cholesterol deposits around eyes)
+  Diagnosis Pathway
+  Treatment
+Ursodeoxycholic acid (UDCA) first-line slows progression. Obeticholic acid (OCA) for non-responders. Cholestyramine for pruritus. Liver transplant in end-stage disease.
+  Prognosis
+Excellent if UDCA started early and liver function normalises. Late-stage patients risk cirrhosis. Transplant has high success rate.
+Guillain-Barré Syndrome (GBS)
+Classification: Autoimmune / Acquired
+  Key Symptoms
+Ascending weakness starting in the feet and legs
+Tingling, numbness, or burning pain in extremities
+Progressive limb paralysis over days to weeks
+Loss of deep tendon reflexes (areflexia)
+Autonomic instability: blood pressure swings, arrhythmias
+Facial weakness and swallowing difficulty in severe cases
+Respiratory failure requiring ventilation in ~25% of cases
+  Diagnosis Pathway
+  Treatment
+IVIg (0.4 g/kg/day × 5 days) or plasmapheresis — equivalent efficacy. Supportive care, physiotherapy, respiratory monitoring. No role for corticosteroids.
+  Prognosis
+Most recover over weeks to months. ~5% mortality. Residual weakness in ~20%. Relapses rare (CIDP if chronic).
+Cystic Fibrosis (CF)
+Classification: Genetic / Multi-system
+  Key Symptoms
+Thick, sticky mucus accumulation in lungs and airways
+Recurrent pulmonary infections (Pseudomonas, Staphylococcus)
+Bronchiectasis and progressive lung function decline
+Exocrine pancreatic insufficiency — malabsorption, fatty stools
+Poor weight gain and growth failure in childhood
+Salty-tasting skin; high sweat chloride
+Male infertility due to absent vas deferens (CBAVD)
+  Diagnosis Pathway
+  Treatment
+CFTR modulators (elexacaftor/tezacaftor/ivacaftor — Trikafta) for eligible mutations. Airway clearance physiotherapy, pancreatic enzymes, high-calorie diet, inhaled antibiotics.
+  Prognosis
+Transformed by CFTR modulators. Patients on Trikafta have dramatically improved lung function and life expectancy. Early intervention critical.
+Hereditary Hemochromatosis (HH)
+Classification: Genetic / Metabolic
+  Key Symptoms
+Fatigue and chronic tiredness (often first symptom)
+Joint pain, especially in index and middle finger MCP joints
+Bronze or grey skin hyperpigmentation
+Liver fibrosis and cirrhosis with elevated liver enzymes
+Diabetes mellitus due to pancreatic iron deposition
+Cardiac arrhythmias and cardiomyopathy
+Hypogonadism and decreased libido in males
+  Diagnosis Pathway
+  Treatment
+Therapeutic phlebotomy (venesection) 450-500ml weekly until ferritin <50 ug/L, then maintenance every 3–4 months. Avoid vitamin C supplements and raw shellfish.
+  Prognosis
+Excellent if treated before cirrhosis or diabetes. Normal life expectancy achievable. End-organ damage partially reversible.
+Alpha-1 Antitrypsin Deficiency (AATD)
+Classification: Genetic / Pulmonary & Hepatic
+  Key Symptoms
+Progressive shortness of breath and exertional dyspnoea
+Wheezing, chronic cough — frequently misdiagnosed as asthma or COPD
+Early-onset emphysema, especially in the lower lung zones
+Liver disease: neonatal cholestasis, cirrhosis in adults
+Necrotising panniculitis — painful nodular skin lesions (rare)
+Reduced exercise tolerance and recurrent chest infections
+Symptoms worsen significantly with smoking
+  Diagnosis Pathway
+  Treatment
+Smoking cessation is critical. Standard COPD therapy (bronchodilators, inhaled steroids). Augmentation therapy (IV AAT protein infusions) in eligible patients with FEV1 35–65%.
+  Prognosis
+Non-smokers with ZZ genotype have near-normal life expectancy. Smokers fare significantly worse. Liver disease managed by transplant in severe cases.
+Wilson's Disease
+Classification: Genetic / Metabolic
+  Key Symptoms
+Hepatic: jaundice, hepatomegaly, acute liver failure in young patients
+Tremors, dysarthria, and bradykinesia (Parkinsonian features)
+Neuropsychiatric: mood swings, depression, psychosis
+Kayser-Fleischer rings — golden-brown rings at corneal periphery
+Haemolytic anaemia due to copper-induced red cell destruction
+Renal tubular dysfunction (Fanconi syndrome)
+Sunflower cataracts (copper deposits in the lens)
+  Diagnosis Pathway
+  Treatment
+D-penicillamine or trientine (chelation therapy) to remove copper. Zinc acetate for maintenance and pre-symptomatic cases. Liver transplant for fulminant hepatic failure.
+  Prognosis
+Excellent if diagnosed early before irreversible organ damage. Neurological symptoms may take 18–24 months to improve. Lifelong treatment required.
+Fabry Disease
+Classification: Genetic / Lysosomal Storage (X-linked)
+  Key Symptoms
+Episodic severe burning pain in hands and feet (acroparesthesia)
+Heat, cold, and exercise intolerance
+Gastrointestinal: abdominal pain, diarrhoea, early satiety
+Angiokeratomas — small dark red/purple skin lesions
+Cornea verticillata (whorl-like corneal opacities on slit-lamp)
+Progressive chronic kidney disease and proteinuria
+Hypertrophic cardiomyopathy and arrhythmias
+Strokes and TIAs in young adults — often the presenting event
+  Diagnosis Pathway
+  Treatment
+Enzyme replacement therapy (ERT): agalsidase alfa or agalsidase beta IV every 2 weeks. Migalastat (chaperone therapy) for amenable mutations. Pain managed with gabapentin, carbamazepine.
+  Prognosis
+ERT slows progression but does not reverse established organ damage. Early treatment produces better outcomes. Females often under-treated — equal monitoring required.
+Stiff Person Syndrome (SPS)
+Classification: Autoimmune / Neurological
+  Key Symptoms
+Progressive muscle rigidity, especially in the trunk and abdomen
+Painful, sudden muscle spasms triggered by noise, touch, or emotion
+Hyperlordosis — extreme curvature of the lumbar spine
+Anxiety, agoraphobia — triggered by fear of spasm in public
+Episodic falls due to sudden loss of postural control
+Hyperekplexia — exaggerated startle response
+In variant SPS: limb-predominant or cerebellar involvement
+  Diagnosis Pathway
+  Treatment
+Diazepam (high dose) or baclofen for muscle rigidity. IVIg or plasmapheresis for acute exacerbations. Rituximab for severe refractory cases. Psychological support critical.
+  Prognosis
+Chronic, progressive condition. No cure but symptoms manageable. Falls and progressive disability are main concerns. Paraneoplastic cases depend on cancer treatment.
+Global Cases
+~1.6 Million | Prevalence
+1 in 5,000 | Subtypes
+13 known | Gender bias
+All genders
+Clinical Exam | Beighton Score to assess joint hypermobility (≥5/9 for adults); skin assessment
+Genetic Testing | Panel testing for COL5A1, COL3A1, TNXB and related genes (type-specific)
+Skin Biopsy | Electron microscopy to detect collagen fibril abnormalities in classical EDS
+Echocardiogram | To assess vascular EDS and aortic root dilation risk
+Differential Diagnosis | Rule out Marfan syndrome, Loeys-Dietz syndrome, hypermobility spectrum disorders
+ | Case Example
+A 24-year-old woman presented with recurrent shoulder and knee dislocations since adolescence, along with unexplained fatigue and digestive issues. After visiting several specialists over 6 years without a diagnosis, a rheumatologist applied the Beighton Score (8/9) and arranged genetic testing confirming hEDS. She was referred to a multidisciplinary team including a physiotherapist and pain specialist. Over approximately 18 months of targeted physical therapy and pain management, her dislocation frequency decreased significantly and daily function improved. She continues routine monitoring and has managed independently since.
+Global Cases
+~10 Million | Prevalence
+12.4/100,000 | Peak onset (F)
+Ages 20–40 | Peak onset (M)
+Ages 60–80
+Antibody Tests | AChR antibodies (85% sensitivity); MuSK antibodies for seronegative cases
+Edrophonium Test | Temporary improvement with tensilon injection confirms NMJ dysfunction
+Repetitive Nerve Stimulation | Decremental EMG response at 3 Hz; characteristic of MG
+Single-Fiber EMG | Most sensitive test; detects jitter in neuromuscular transmission
+CT Chest | Mandatory to rule out thymoma; guides surgical decision
+ | Case Example
+A 32-year-old woman noticed her left eyelid drooping and intermittent double vision, which worsened by evening. After initial misdiagnosis as migraine, a neurologist performed AChR antibody testing (positive) and single-fiber EMG confirming MG. CT scan revealed a small thymoma. She underwent thymectomy, and over approximately 14 months of pyridostigmine and low-dose prednisolone, her ocular symptoms fully resolved. She was tapered off immunosuppressants after 3 years and remains in remission, with annual neurology follow-ups.
+Global Cases
+~14 Million | Prevalence
+18/100,000 | Gender
+90% female | Typical onset
+Ages 40–60
+AMA Blood Test | Anti-mitochondrial antibodies (AMA-M2) positive in ~95% of PBC cases — highly specific
+Liver Function Tests | Elevated alkaline phosphatase (ALP) and GGT; hallmark biochemical finding
+Liver Biopsy | Confirms staging; shows lymphocytic cholangitis and bile duct destruction
+Imaging (MRCP) | Excludes primary sclerosing cholangitis; rules out biliary obstruction
+ANA / Anti-sp100 | AMA-negative PBC confirmed by anti-sp100 and anti-gp210 antibodies
+ | Case Example
+A 47-year-old woman was referred for persistent unexplained itching and fatigue lasting two years, initially managed as eczema. Blood tests revealed elevated ALP, and AMA-M2 antibodies were positive. Liver biopsy confirmed early-stage PBC. She was started on UDCA, and after 12 months of treatment her liver enzymes normalised and the itching reduced substantially. Eight years later she remains on UDCA with stable liver function and no disease progression, reviewed annually by a hepatologist.
+Annual Cases
+~150,000 | Incidence
+1–2/100,000/yr | ICU admission
+~25% of cases | Full recovery
+~80% patients
+Lumbar Puncture (CSF) | Albuminocytologic dissociation: high protein, normal cell count — pathognomonic
+Nerve Conduction Studies | Slowed conduction velocity (demyelinating) or reduced amplitude (axonal variant)
+Anti-ganglioside Antibodies | Anti-GQ1b in Miller Fisher variant; anti-GM1 in AMAN subtype
+MRI Spine | May show nerve root enhancement; used to exclude mimics
+Brighton Criteria | Standardised diagnostic criteria levels 1–4 for clinical certainty
+ | Case Example
+A 55-year-old man developed tingling in both feet after a respiratory infection, progressing to leg weakness over 5 days. He was hospitalised when walking became impossible. CSF showed elevated protein with no white cells. Nerve conduction confirmed acute inflammatory demyelinating polyneuropathy (AIDP). A 5-day course of IVIg was administered. He spent 3 weeks in hospital and 6 months in intensive physiotherapy. Walking was regained at month 4; near-full recovery was documented at 11 months. He has had no relapse in the 4 years since.
+Global Cases
+~160,000 | Birth incidence
+1 in 3,500 | Median survival
+~50 years | Gene mutations
+2,000+ known
+Newborn Screening | Immunoreactive trypsinogen (IRT) test — standard in most countries
+Sweat Chloride Test | Gold standard: ≥60 mmol/L diagnostic; 30–59 borderline
+Genetic Testing | CFTR mutation panel (CFTR2 database); identifies specific variants for modulator therapy
+Lung Function (PFTs) | FEV1 decline tracks disease progression; HRCT for structural changes
+Sputum Microbiology | Regular cultures to guide antibiotic choice; Pseudomonas colonisation predicts decline
+ | Case Example
+An infant was flagged on newborn screening with elevated IRT; sweat chloride (72 mmol/L) and CFTR genetic testing confirmed CF (F508del/F508del). The child was enrolled in a specialist CF centre from infancy with regular physiotherapy, pancreatic enzyme replacement, and nutritional support. At age 12, she was commenced on elexacaftor/tezacaftor/ivacaftor (Trikafta) following eligibility confirmation. Within 4 months, her FEV1 improved by 18 percentage points and BMI normalised. She has had only one hospitalisation in 3 years on treatment, compared to 4 per year previously.
+Global burden
+Millions | Carrier rate
+~10% N. European | Gene
+HFE (C282Y) | M:F ratio
+Men symptomatic earlier
+Fasting Transferrin Saturation | >45% in women, >50% in men — most sensitive early marker
+Serum Ferritin | Elevated (>300 ug/L men, >200 ug/L women); non-specific but monitors iron load
+HFE Genetic Testing | C282Y homozygosity confirms diagnosis; H63D compound heterozygosity assessed separately
+Liver Biopsy / MRI | MRI (T2*) quantifies hepatic iron; biopsy for fibrosis staging if ferritin >1000 ug/L
+Family Screening | First-degree relatives should be screened with transferrin saturation + HFE genotyping
+ | Case Example
+A 42-year-old man was incidentally found to have elevated liver enzymes on a routine health check. Iron studies showed transferrin saturation of 78% and ferritin of 1,820 ug/L. HFE genotyping confirmed C282Y homozygosity. MRI liver showed moderate iron overload without cirrhosis. He underwent weekly phlebotomy; ferritin normalised to 45 ug/L after approximately 14 months and 28 venesections. He now attends for maintenance phlebotomy every 12 weeks. Liver enzymes normalised within 6 months, and he reports significant improvement in joint pain and energy levels.
+Global burden
+Millions | European prevalence
+1 in 1,500–3,500 | Most common allele
+PiZZ genotype | Diagnosis delay
+Avg. 5–7 years
+Serum AAT Level | Alpha-1 antitrypsin protein level <11 umol/L suggests deficiency
+Phenotyping (IEF) | Isoelectric focusing identifies Pi genotype (PiZZ, PiMZ etc.)
+Genotyping | Molecular testing for Z and S alleles; confirms deficiency type
+Spirometry / PFTs | Obstructive pattern with reduced DLCO; tracks lung deterioration
+CT Thorax | Basilar-predominant panacinar emphysema; characteristic pattern distinguishing from smoking-related COPD
+ | Case Example
+A 38-year-old non-smoking woman was diagnosed with 'atypical asthma' and treated ineffectively for 6 years. A respiratory physician noticed basal-predominant emphysema on CT and ordered AAT serum levels, which returned at 4 umol/L. Genotyping confirmed PiZZ. She was enrolled in an augmentation therapy programme (weekly IV infusions). After 2 years of treatment, FEV1 decline slowed from 80ml/year to approximately 25ml/year. She remains stable on maintenance therapy and participates in pulmonary rehabilitation, with no hospital admissions in 3 years.
+Global Cases
+~1 Million | Prevalence
+1 in 30,000 | Gene
+ATP7B mutation | Onset
+Ages 5–35 typically
+Slit-Lamp Examination | Kayser-Fleischer rings visible in >90% of patients with neurological involvement
+Serum Ceruloplasmin | <0.1 g/L strongly suggests Wilson's; present in ~85% of cases
+24h Urine Copper | >0.64 umol/24h (baseline) or >1.6 umol/24h post-penicillamine challenge
+Liver Biopsy | Quantitative hepatic copper >250 ug/g dry weight is diagnostic gold standard
+ATP7B Genetic Testing | Confirms diagnosis; identifies mutations for family screening
+ | Case Example
+A 19-year-old male student presented to psychiatry with aggressive behaviour, personality change, and poor academic performance over 8 months. Liver enzymes were mildly elevated. A neurology referral was made and slit-lamp examination revealed Kayser-Fleischer rings. Ceruloplasmin was low (0.06 g/L) and 24-hour urine copper was markedly elevated. Liver biopsy confirmed copper overload. He was started on trientine chelation therapy. Psychiatric symptoms improved significantly over 18 months, liver function normalised by 12 months. He continues zinc maintenance therapy and is in full-time employment 4 years post-diagnosis.
+Global burden
+Hundreds of thousands | Classic form
+1 in 40,000–117,000 | Diagnosis delay
+Avg. 15–20 years (F) | Gene
+GLA (alpha-Gal A)
+Alpha-Gal A Enzyme Assay | Markedly reduced enzyme activity in leucocytes — definitive in males; unreliable in females
+GLA Genetic Testing | Identifies pathogenic mutation; essential for female diagnosis and family screening
+Lyso-Gb3 (Biomarker) | Elevated plasma lyso-globotriaosylsphingosine; sensitive marker especially in females
+Kidney Biopsy | Characteristic zebra bodies on electron microscopy; used when diagnosis uncertain
+ECG / Echo | Left ventricular hypertrophy, short PR interval, arrhythmias; cardiac screening at diagnosis
+ | Case Example
+A 28-year-old woman with a 12-year history of unexplained burning foot pain, heat intolerance, and recurrent abdominal cramps had been evaluated by multiple specialists without diagnosis. After her brother was diagnosed with Fabry disease, she underwent GLA genetic testing confirming the familial mutation. Lyso-Gb3 was elevated. Renal function was mildly impaired. She commenced agalsidase alfa ERT (fortnightly infusions). Over 3 years, her pain crises reduced from several per month to approximately 2 per year, renal function stabilised, and she reported greatly improved quality of life. She remains on treatment with regular cardiac, renal, and neurological monitoring.
+Global Cases
+~100,000+ | Incidence
+1 in 1,000,000 | Gender
+Women 2× more | Associated
+Type 1 diabetes in 30%
+Anti-GAD65 Antibodies | Elevated in >70% of SPS cases; titres correlate with disease severity
+Anti-Amphiphysin Antibodies | Present in paraneoplastic SPS; prompts malignancy screening (esp. breast cancer)
+EMG (Electromyography) | Continuous motor unit activity at rest in axial muscles — pathognomonic finding
+Clonazepam Trial | Symptomatic improvement with GABAergic drugs supports clinical diagnosis
+MRI Brain & Spine | Usually normal; excludes structural causes of rigidity; detects cerebellar atrophy in variants
+ | Case Example
+A 44-year-old female primary school teacher developed progressive stiffness in her back and abdomen over 8 months, with sudden muscle spasms triggered by loud noises or unexpected touch. She became unable to work and developed anxiety about leaving her home. Neurological assessment found continuous EMG activity; anti-GAD65 antibodies were elevated at 2,800 IU/mL. MRI was normal. She was started on diazepam and referred for IVIg therapy (monthly cycles). Over 18 months of combined treatment, spasm frequency halved, and she regained the ability to walk outdoors with a walking aid. She continues on maintenance diazepam and attends cognitive behavioural therapy for associated anxiety, with stable function at 3-year follow-up.

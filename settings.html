@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Settings — DiagnoSys</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- ========== SIDEBAR ========== -->
+  <aside class="sidebar" id="sidebar">
+    <button class="sidebar-toggle" id="sidebarToggle">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="width: 14px; height: 14px;"><polyline points="15 18 9 12 15 6"/></svg>
+    </button>
+    <div class="sidebar-logo">
+      <span class="logo-text">DiagnoSys</span>
+    </div>
+
+    <nav class="sidebar-nav">
+      <a href="patient-input.html" class="nav-item" data-section="new-case">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5v14M5 12h14"/></svg>
+        <span>New Case</span>
+      </a>
+      <a href="index.html" class="nav-item" data-section="history">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+        <span>Case History</span>
+      </a>
+      <a href="settings.html" class="nav-item active" data-section="settings">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 00.33 1.82l.06.06a2 2 0 11-2.83 2.83l-.06-.06a1.65 1.65 0 00-1.82-.33 1.65 1.65 0 00-1 1.51V21a2 2 0 11-4 0v-.09A1.65 1.65 0 009 19.4a1.65 1.65 0 00-1.82.33l-.06.06a2 2 0 11-2.83-2.83l.06-.06A1.65 1.65 0 004.68 15a1.65 1.65 0 00-1.51-1H3a2 2 0 110-4h.09A1.65 1.65 0 004.6 9"/></svg>
+        <span>Settings</span>
+      </a>
+    </nav>
+
+    <div class="sidebar-footer">
+      <div class="sidebar-help">
+        <div class="help-icon">?</div>
+        <div class="help-text">
+          <span class="help-title">Need Help?</span>
+          <span class="help-sub">Contact support</span>
+        </div>
+      </div>
+    </div>
+  </aside>
+
+  <!-- ========== MAIN WRAPPER ========== -->
+  <div class="main-wrapper">
+    <!-- ========== HEADER ========== -->
+    <header class="header">
+      <div class="header-left">
+        <h1 class="header-title">Account Settings</h1>
+        <span class="header-subtitle">Manage your profile and preferences</span>
+      </div>
+      <div class="header-right">
+        <button class="header-icon-btn" id="notifBtn" aria-label="Notifications">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M18 8A6 6 0 006 8c0 7-3 9-3 9h18s-3-2-3-9"/><path d="M13.73 21a2 2 0 01-3.46 0"/></svg>
+          <span class="notif-badge">3</span>
+        </button>
+        <!-- Notification Dropdown -->
+        <div class="notif-dropdown" id="notifDropdown">
+          <div class="notif-dropdown-header">
+            <span>Notifications</span>
+            <a href="#">Mark all read</a>
+          </div>
+          <div class="notif-item unread">
+            <div class="notif-dot"></div>
+            <div>
+              <p class="notif-text">New AI analysis completed for <b>Patient #4821</b></p>
+              <span class="notif-time">2 min ago</span>
+            </div>
+          </div>
+          <div class="notif-item unread">
+            <div class="notif-dot"></div>
+            <div>
+              <p class="notif-text">Blockchain verification confirmed — TX <b>0xA34F…89D2</b></p>
+              <span class="notif-time">15 min ago</span>
+            </div>
+          </div>
+          <div class="notif-item">
+            <div>
+              <p class="notif-text">3 similar cases found in decentralized network</p>
+              <span class="notif-time">1 hr ago</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="header-divider"></div>
+        <div class="profile-area" id="profileArea">
+          <div class="profile-avatar" id="profileAvatar">
+            <span>DS</span>
+            <span class="status-dot"></span>
+          </div>
+          <div class="profile-info">
+            <span class="profile-name">Dr. Sarah</span>
+            <span class="profile-role">Neurologist</span>
+          </div>
+          <svg class="profile-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+
+          <!-- Profile Dropdown -->
+          <div class="profile-dropdown" id="profileDropdown">
+            <div class="pd-header">
+              <div class="pd-avatar"><span>DS</span></div>
+              <div>
+                <div class="pd-name">Dr. Sarah Mitchell</div>
+                <div class="pd-email">dr.sarah@diagnosys.health</div>
+              </div>
+            </div>
+            <div class="pd-divider"></div>
+            <a href="#" class="pd-item">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+              My Profile
+            </a>
+            <a href="#" class="pd-item">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 00.33 1.82l.06.06a2 2 0 11-2.83 2.83l-.06-.06a1.65 1.65 0 00-1.82-.33 1.65 1.65 0 00-1 1.51V21a2 2 0 11-4 0v-.09A1.65 1.65 0 009 19.4a1.65 1.65 0 00-1.82.33l-.06.06a2 2 0 11-2.83-2.83l.06-.06A1.65 1.65 0 004.68 15a1.65 1.65 0 00-1.51-1H3a2 2 0 110-4h.09A1.65 1.65 0 004.6 9"/></svg>
+              Account Settings
+            </a>
+            <a href="#" class="pd-item">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M9 21H5a2 2 0 01-2-2V5a2 2 0 012-2h4"/><polyline points="16 17 21 12 16 7"/><line x1="21" y1="12" x2="9" y2="12"/></svg>
+              Sign Out
+            </a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- ========== CONTENT ========== -->
+    <main class="content">
+      <div class="card card-settings" style="max-width: 800px; margin: 0 auto;">
+        <div class="card-header">
+          <div class="card-title-group">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 00.33 1.82l.06.06a2 2 0 11-2.83 2.83l-.06-.06a1.65 1.65 0 00-1.82-.33 1.65 1.65 0 00-1 1.51V21a2 2 0 11-4 0v-.09A1.65 1.65 0 009 19.4a1.65 1.65 0 00-1.82.33l-.06.06a2 2 0 11-2.83-2.83l.06-.06A1.65 1.65 0 004.68 15a1.65 1.65 0 00-1.51-1H3a2 2 0 110-4h.09A1.65 1.65 0 004.6 9"/></svg>
+            <h2>User Profile</h2>
+          </div>
+        </div>
+        <div class="card-body">
+          <div class="form-group" style="margin-bottom: 20px;">
+            <label>Profile Picture</label>
+            <div style="display: flex; align-items: center; gap: 16px; margin-top: 8px;">
+              <div class="pd-avatar" style="width: 64px; height: 64px; font-size: 1.5rem;"><span>DS</span></div>
+              <button class="btn btn-outline" style="padding: 8px 16px; font-size: 0.8rem;">Change Avatar</button>
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="firstName">First Name</label>
+              <input type="text" id="firstName" class="form-input" value="Sarah" />
+            </div>
+            <div class="form-group">
+              <label for="lastName">Last Name</label>
+              <input type="text" id="lastName" class="form-input" value="Mitchell" />
+            </div>
+          </div>
+          <div class="form-group" style="margin-top: 14px;">
+            <label for="email">Email Address</label>
+            <input type="email" id="email" class="form-input" value="dr.sarah@diagnosys.health" />
+          </div>
+          <div class="form-group" style="margin-top: 14px;">
+            <label for="specialty">Specialty</label>
+            <input type="text" id="specialty" class="form-input" value="Neurologist" />
+          </div>
+          <div style="height: 1px; background: var(--border-color); margin: 24px 0;"></div>
+          <div class="form-group">
+            <label>Security</label>
+            <div style="display: flex; gap: 12px; margin-top: 8px;">
+              <button class="btn btn-outline" style="padding: 8px 16px; font-size: 0.8rem;">Change Password</button>
+              <button class="btn btn-outline" style="padding: 8px 16px; font-size: 0.8rem; color: #ef4444; border-color: rgba(239,68,68,0.2);">Delete Account</button>
+            </div>
+          </div>
+          <button class="btn btn-primary" style="width: 100%; margin-top: 32px;">Save Changes</button>
+        </div>
+      </div>
+    </main>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

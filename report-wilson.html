@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Wilson's Disease - Diagnosis Report</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+  <style>
+    .report-container { max-width: 1400px; width: 95%; margin: 40px auto; padding: 0 20px; }
+    .back-nav { margin-bottom: 24px; }
+    .back-nav a { display: inline-flex; align-items: center; gap: 8px; color: #0ea5e9; text-decoration: none; font-weight: 500; transition: color 0.2s; }
+    .back-nav a:hover { color: #38bdf8; }
+    
+    .report-header { display: flex; justify-content: space-between; align-items: flex-start; border-bottom: 1px solid #1e293b; padding-bottom: 20px; margin-bottom: 32px; }
+    .report-title-group h1 { margin: 0 0 10px 0; font-size: 32px; color: #f8fafc; }
+    .report-title-group .classification { font-size: 15px; color: #94a3b8; font-weight: 500; display:flex; align-items:center; gap: 8px; }
+    
+    .grid-layout {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 48px;
+    }
+
+    /* Left column */
+    .left-col { display: flex; flex-direction: column; gap: 40px; }
+    .right-col { display: flex; flex-direction: column; gap: 40px; }
+
+    .section-title { font-size: 16px; text-transform: uppercase; letter-spacing: 0.5px; color: #94a3b8; border-bottom: 1px solid #334155; padding-bottom: 8px; margin-bottom: 16px; margin-top: 0; }
+    
+    .tags-grid { display: flex; flex-wrap: wrap; gap: 10px; }
+    .report-tag { background: rgba(14, 165, 233, 0.1); color: #38bdf8; border: 1px solid rgba(14, 165, 233, 0.2); padding: 8px 14px; border-radius: 6px; font-size: 14px; font-weight: 500; }
+
+    .pathway-list { list-style: none; padding: 0; margin: 0; }
+    .pathway-item { background: #0f172a; border-left: 3px solid #14b8a6; padding: 16px 20px; margin-bottom: 12px; border-radius: 6px; }
+    .pathway-item strong { color: #f8fafc; display: block; margin-bottom: 6px; font-size: 15px; }
+    .pathway-item span { color: #cbd5e1; font-size: 14px; display: block; line-height: 1.5; }
+
+    .management-grid {
+      display: grid; grid-template-columns: 1fr; gap: 20px;
+    }
+    .info-box { background: #1e293b; padding: 24px; border-radius: 10px; color: #e2e8f0; line-height: 1.6; font-size: 15px; }
+    .info-box.tx { border-left: 4px solid #f59e0b; }
+    .info-box.prog { border-left: 4px solid #8b5cf6; }
+    
+    .case-example { background: linear-gradient(135deg, rgba(14,165,233,0.1), rgba(20,184,166,0.1)); border: 1px solid rgba(14,165,233,0.2); padding: 28px; border-radius: 12px; }
+    .case-example h3 { margin: 0 0 16px 0; color: #f8fafc; display: flex; align-items: center; gap: 8px; font-size: 18px; }
+    .case-example p { color: #cbd5e1; line-height: 1.7; margin: 0; font-style: italic; font-size: 15px; }
+    
+    @media (max-width: 992px) {
+      .grid-layout { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+  
+  <div class="report-container">
+    <div class="back-nav">
+      <a href="patient-input.html">
+        <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="19" y1="12" x2="5" y2="12"></line><polyline points="12 19 5 12 12 5"></polyline></svg>
+        Back to Patient Input
+      </a>
+    </div>
+    
+    <div class="card" style="padding: 40px;">
+      <div class="report-header">
+        <div class="report-title-group">
+          <h1>Wilson's Disease</h1>
+          <div class="classification">
+            <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 12h-4l-3 9L9 3l-3 9H2"></path></svg>
+            Classification: Genetic / Metabolic
+          </div>
+        </div>
+        <span class="card-badge badge-blue" style="font-size:14px; padding: 6px 16px;">Detailed Clinical Report</span>
+      </div>
+
+      <div class="grid-layout">
+        <!-- Left Column -->
+        <div class="left-col">
+          <div>
+            <div class="section-title">Key Symptoms</div>
+            <div class="tags-grid">
+              <span class="report-tag">Hepatic: jaundice, acute liver failure</span><span class="report-tag">Tremors, dysarthria, bradykinesia</span><span class="report-tag">Neuropsychiatric: mood swings, depression</span><span class="report-tag">Kayser-Fleischer rings</span><span class="report-tag">Haemolytic anaemia</span><span class="report-tag">Renal tubular dysfunction</span><span class="report-tag">Sunflower cataracts</span>
+            </div>
+          </div>
+
+          <div>
+            <div class="section-title">Diagnosis Pathway</div>
+            <ul class="pathway-list">
+              <li class="pathway-item"><strong>Slit-Lamp Examination</strong><span>Kayser-Fleischer rings</span></li><li class="pathway-item"><strong>Serum ceruloplasmin</strong><span><0.1 g/L</span></li><li class="pathway-item"><strong>24h Urine Copper</strong><span>Elevated</span></li><li class="pathway-item"><strong>Liver Biopsy</strong><span>Quantitative hepatic copper</span></li><li class="pathway-item"><strong>ATP7B Genetic Testing</strong><span>Confirms diagnosis</span></li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Right Column -->
+        <div class="right-col">
+          <div>
+            <div class="section-title">Management & Outcomes</div>
+            <div class="management-grid">
+              <div class="info-box tx">
+                <strong style="color: #f8fafc; display: block; margin-bottom: 8px;">Treatment Overview</strong>
+                D-penicillamine or trientine (chelation therapy) to remove copper. Zinc acetate for maintenance. Liver transplant for fulminant hepatic failure.
+              </div>
+              <div class="info-box prog">
+                <strong style="color: #f8fafc; display: block; margin-bottom: 8px;">Prognosis</strong>
+                Excellent if diagnosed early before irreversible organ damage. Neurological symptoms may take 18–24 months to improve.
+              </div>
+            </div>
+          </div>
+
+          <div class="case-example">
+            <h3>
+              <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>
+              Clinical Case Example
+            </h3>
+            <p>"A 19-year-old male student presented to psychiatry with aggressive behaviour, personality change, and poor academic performance. A neurology referral was made and Kayser-Fleischer rings were found. Ceruloplasmin was low and 24-hour urine copper elevated. He was started on trientine chelation therapy. Psychiatric symptoms improved significantly over 18 months."</p>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+
+</body>
+</html>

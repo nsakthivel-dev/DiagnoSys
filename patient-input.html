@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Patient Input — DiagnoSys</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- ========== SIDEBAR ========== -->
+  <aside class="sidebar" id="sidebar">
+    <button class="sidebar-toggle" id="sidebarToggle">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="width: 14px; height: 14px;"><polyline points="15 18 9 12 15 6"/></svg>
+    </button>
+    <div class="sidebar-logo">
+      <span class="logo-text">DiagnoSys</span>
+    </div>
+
+    <nav class="sidebar-nav">
+      <a href="patient-input.html" class="nav-item active" data-section="new-case">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5v14M5 12h14"/></svg>
+        <span>New Case</span>
+      </a>
+      <a href="index.html" class="nav-item" data-section="history">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+        <span>Case History</span>
+      </a>
+      <a href="settings.html" class="nav-item" data-section="settings">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 00.33 1.82l.06.06a2 2 0 11-2.83 2.83l-.06-.06a1.65 1.65 0 00-1.82-.33 1.65 1.65 0 00-1 1.51V21a2 2 0 11-4 0v-.09A1.65 1.65 0 009 19.4a1.65 1.65 0 00-1.82.33l-.06.06a2 2 0 11-2.83-2.83l.06-.06A1.65 1.65 0 004.68 15a1.65 1.65 0 00-1.51-1H3a2 2 0 110-4h.09A1.65 1.65 0 004.6 9"/></svg>
+        <span>Settings</span>
+      </a>
+    </nav>
+
+    <div class="sidebar-footer">
+      <div class="sidebar-help">
+        <div class="help-icon">?</div>
+        <div class="help-text">
+          <span class="help-title">Need Help?</span>
+          <span class="help-sub">Contact support</span>
+        </div>
+      </div>
+    </div>
+  </aside>
+
+  <!-- ========== MAIN WRAPPER ========== -->
+  <div class="main-wrapper">
+    <!-- ========== HEADER ========== -->
+    <header class="header">
+      <div class="header-left">
+        <h1 class="header-title">Patient Input</h1>
+        <span class="header-subtitle">Enter clinical data for AI analysis</span>
+      </div>
+      <div class="header-center">
+        <div class="search-box" id="searchBox">
+          <svg class="search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35"/></svg>
+          <input type="text" class="search-input" id="searchInput" placeholder="Search patients, reports, cases…" />
+          <kbd class="search-kbd">⌘K</kbd>
+        </div>
+      </div>
+      <div class="header-right">
+        <button class="header-icon-btn" id="notifBtn" aria-label="Notifications">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M18 8A6 6 0 006 8c0 7-3 9-3 9h18s-3-2-3-9"/><path d="M13.73 21a2 2 0 01-3.46 0"/></svg>
+          <span class="notif-badge">3</span>
+        </button>
+        <!-- Notification Dropdown -->
+        <div class="notif-dropdown" id="notifDropdown">
+          <div class="notif-dropdown-header">
+            <span>Notifications</span>
+            <a href="#">Mark all read</a>
+          </div>
+          <div class="notif-item unread">
+            <div class="notif-dot"></div>
+            <div>
+              <p class="notif-text">New AI analysis completed for <b>Patient #4821</b></p>
+              <span class="notif-time">2 min ago</span>
+            </div>
+          </div>
+          <div class="notif-item unread">
+            <div class="notif-dot"></div>
+            <div>
+              <p class="notif-text">Blockchain verification confirmed — TX <b>0xA34F…89D2</b></p>
+              <span class="notif-time">15 min ago</span>
+            </div>
+          </div>
+          <div class="notif-item">
+            <div>
+              <p class="notif-text">3 similar cases found in decentralized network</p>
+              <span class="notif-time">1 hr ago</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="header-divider"></div>
+        <div class="profile-area" id="profileArea">
+          <div class="profile-avatar" id="profileAvatar">
+            <span>DS</span>
+            <span class="status-dot"></span>
+          </div>
+          <div class="profile-info">
+            <span class="profile-name">Dr. Sarah</span>
+            <span class="profile-role">Neurologist</span>
+          </div>
+          <svg class="profile-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+
+          <!-- Profile Dropdown -->
+          <div class="profile-dropdown" id="profileDropdown">
+            <div class="pd-header">
+              <div class="pd-avatar"><span>DS</span></div>
+              <div>
+                <div class="pd-name">Dr. Sarah Mitchell</div>
+                <div class="pd-email">dr.sarah@diagnosys.health</div>
+              </div>
+            </div>
+            <div class="pd-divider"></div>
+            <a href="#" class="pd-item">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+              My Profile
+            </a>
+            <a href="#" class="pd-item">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 00.33 1.82l.06.06a2 2 0 11-2.83 2.83l-.06-.06a1.65 1.65 0 00-1.82-.33 1.65 1.65 0 00-1 1.51V21a2 2 0 11-4 0v-.09A1.65 1.65 0 009 19.4a1.65 1.65 0 00-1.82.33l-.06.06a2 2 0 11-2.83-2.83l.06-.06A1.65 1.65 0 004.68 15a1.65 1.65 0 00-1.51-1H3a2 2 0 110-4h.09A1.65 1.65 0 004.6 9"/></svg>
+              Account Settings
+            </a>
+            <a href="#" class="pd-item">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M9 21H5a2 2 0 01-2-2V5a2 2 0 012-2h4"/><polyline points="16 17 21 12 16 7"/><line x1="21" y1="12" x2="9" y2="12"/></svg>
+              Sign Out
+            </a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- ========== CONTENT ========== -->
+    <main class="content">
+      <div class="card card-patient" id="patientInputCard" style="max-width: 800px; margin: 0 auto;">
+        <div class="card-header">
+          <div class="card-title-group">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M16 4h2a2 2 0 012 2v14a2 2 0 01-2 2H6a2 2 0 01-2-2V6a2 2 0 012-2h2"/><rect x="8" y="2" width="8" height="4" rx="1"/></svg>
+            <h2>Clinical Data Entry</h2>
+          </div>
+          <span class="card-badge badge-blue">New Patient</span>
+        </div>
+        <div class="card-body">
+          <div class="form-row">
+            <div class="form-group">
+              <label for="ageInput">Age</label>
+              <input type="number" id="ageInput" class="form-input" placeholder="e.g. 34" value="" />
+            </div>
+            <div class="form-group">
+              <label for="genderSelect">Gender</label>
+              <select id="genderSelect" class="form-input">
+                <option>Male</option>
+                <option selected>Female</option>
+                <option>Other</option>
+              </select>
+            </div>
+          </div>
+          <div class="form-group">
+            <label>Symptoms</label>
+            <div class="tag-input" id="tagInput">
+              <input type="text" class="tag-text-input" id="tagTextInput" placeholder="Add symptom…" />
+            </div>
+          </div>
+          <div class="form-group" style="margin-top: 14px;">
+            <label for="familyHistory">Family History</label>
+            <textarea id="familyHistory" class="form-input form-textarea" placeholder="Describe relevant family medical history…"></textarea>
+          </div>
+          <div class="form-group" style="margin-top: 14px;">
+            <label for="clinicalNotes">Additional Clinical Notes</label>
+            <textarea id="clinicalNotes" class="form-input form-textarea" placeholder="Add any other relevant clinical observations…"></textarea>
+          </div>
+          <button class="btn btn-primary btn-analyze" id="analyzeBtn" style="margin-top: 24px;">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polygon points="10 8 16 12 10 16 10 8"/></svg>
+            <span id="analyzeBtnText">Analyze with AI</span>
+            <div class="btn-loader" id="btnLoader"></div>
+          </button>
+        </div>
+      </div>
+
+      <!-- AI PREDICTION CARD (HIDDEN BY DEFAULT) -->
+      <div class="card card-prediction" id="aiPredictionCard" style="max-width: 800px; margin: 24px auto; display: none;">
+        <div class="card-header">
+          <div class="card-title-group">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 2a4 4 0 014 4c0 1.95-1.4 3.58-3.25 3.93"/><path d="M8.56 9.93A4.001 4.001 0 0112 6"/><circle cx="12" cy="16" r="4"/><path d="M12 20v2M4 12h2M18 12h2"/></svg>
+            <h2>AI Analysis Report</h2>
+          </div>
+          <span class="card-badge badge-amber">Analysis Result</span>
+        </div>
+        <div class="card-body prediction-body">
+          <div class="prediction-circle-wrap">
+            <div class="prediction-circle" id="predictionCircle">
+              <svg viewBox="0 0 120 120">
+                <circle cx="60" cy="60" r="52" fill="none" stroke="#e2e8f0" stroke-width="10"/>
+                <circle cx="60" cy="60" r="52" fill="none" stroke="url(#progGrad)" stroke-width="10" stroke-linecap="round" stroke-dasharray="326.73" stroke-dashoffset="326.73" transform="rotate(-90 60 60)"/>
+                <defs><linearGradient id="progGrad" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0ea5e9"/><stop offset="1" stop-color="#14b8a6"/></linearGradient></defs>
+              </svg>
+              <div class="prediction-percent">
+                <span class="pp-value">0%</span>
+                <span class="pp-label">Match</span>
+              </div>
+            </div>
+          </div>
+          <div class="prediction-details">
+            <h3 class="disease-name">Processing...</h3>
+            <p class="disease-desc">The AI is analyzing your clinical data against our decentralized medical database.</p>
+            <div class="prediction-progress-wrap">
+              <div class="prediction-progress-label">
+                <span>Confidence Score</span>
+                <span>0%</span>
+              </div>
+              <div class="prediction-progress-bar">
+                <div class="prediction-progress-fill" style="width: 0%"></div>
+              </div>
+            </div>
+            <div class="prediction-meta">
+              <div class="pm-item">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+                <span>-</span>
+              </div>
+              <div class="pm-item">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+                <span>-</span>
+              </div>
+            </div>
+            <a href="#" id="viewReportBtn" class="btn btn-primary" style="margin-top: 16px; display: none; text-decoration: none;">View Detailed Report</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- BLOCKCHAIN VERIFICATION CARD (HIDDEN BY DEFAULT) -->
+      <div class="card card-blockchain" id="blockchainCard" style="max-width: 800px; margin: 24px auto; display: none;">
+        <div class="card-header">
+          <div class="card-title-group">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+            <h2>Blockchain Proof</h2>
+          </div>
+          <span class="card-badge badge-green">Verified</span>
+        </div>
+        <div class="card-body blockchain-body">
+          <div class="bc-row">
+            <span class="bc-label">Transaction Hash</span>
+            <div class="bc-hash-wrap">
+              <code class="bc-hash">0x...</code>
+              <button class="bc-copy" id="copyHashBtn" title="Copy hash">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 01-2-2V4a2 2 0 012-2h9a2 2 0 012 2v1"/></svg>
+              </button>
+            </div>
+          </div>
+          <div class="bc-row">
+            <span class="bc-label">Network</span>
+            <span class="bc-value">Ethereum Sepolia Testnet</span>
+          </div>
+          <button class="btn btn-outline btn-chain" id="viewChainBtn" style="margin-top: 16px;" onclick="window.open('https://sepolia.etherscan.io/tx/0xa34f2601700689d2', '_blank')">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+            View on Chain
+          </button>
+        </div>
+      </div>
+    </main>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
