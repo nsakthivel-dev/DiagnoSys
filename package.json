@@ -3,10 +3,12 @@
   "version": "1.0.0",
   "description": "DiagnoSys Dashboard: A futuristic AI-powered healthcare system.",
   "scripts": {
+    "start": "node backend/index.js",
+    "install:backend": "npm install --prefix backend",
+    "postinstall": "npm run install:backend",
     "dev:backend": "npm run dev --prefix backend",
     "dev:frontend": "python -m http.server 8000",
-    "dev": "concurrently \"npm:dev:backend\" \"npm:dev:frontend\"",
-    "install:backend": "npm install --prefix backend"
+    "dev": "concurrently \"npm:dev:backend\" \"npm:dev:frontend\""
   },
   "keywords": [
     "ai",

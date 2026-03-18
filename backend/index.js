@@ -12,6 +12,10 @@ app.use(cors());
 app.use(bodyParser.json());
 app.use(morgan('dev'));
 
+// Static Serving for Frontend
+const path = require('path');
+app.use(express.static(path.join(__dirname, '../')));
+
 // Mock Data
 const stats = {
   totalPatients: 1284,
