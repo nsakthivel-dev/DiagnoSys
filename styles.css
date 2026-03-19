@@ -274,6 +274,7 @@ input, select, textarea, button { font-family: inherit; font-size: inherit; }
 .header {
   display: flex;
   align-items: center;
+  justify-content: space-between;
   gap: 20px;
   padding: 16px 32px;
   background: rgba(15, 23, 42, 0.82);
@@ -293,32 +294,6 @@ input, select, textarea, button { font-family: inherit; font-size: inherit; }
   letter-spacing: -.3px;
 }
 .header-subtitle { font-size: .78rem; color: var(--text-secondary); font-weight: 500; display: block; margin-top: 1px; }
-
-.header-center { flex: 1; max-width: 480px; margin: 0 auto; }
-.search-box {
-  display: flex; align-items: center; gap: 10px;
-  padding: 9px 16px;
-  background: var(--bg-card);
-  border: 1.5px solid var(--border-color);
-  border-radius: 12px;
-  transition: all .25s;
-}
-.search-box:focus-within {
-  background: var(--bg-input);
-  border-color: var(--accent-primary);
-  box-shadow: 0 0 0 3px rgba(14,165,233,.12);
-}
-.search-icon { width: 18px; height: 18px; color: var(--text-secondary); flex-shrink: 0; }
-.search-input {
-  border: none; outline: none; background: none;
-  flex: 1; font-size: .9rem; color: var(--text-primary);
-}
-.search-input::placeholder { color: var(--text-muted); }
-.search-kbd {
-  font-size: .72rem; padding: 3px 7px;
-  background: var(--bg-hover); border-radius: 6px;
-  color: var(--text-secondary); font-weight: 600;
-}
 
 .header-right { display: flex; align-items: center; gap: 8px; flex-shrink: 0; }
 
